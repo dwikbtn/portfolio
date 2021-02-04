@@ -1,0 +1,18 @@
+@import "../../style/_base";
+
+nav {
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    li {
+      padding-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+}

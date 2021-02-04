@@ -1,0 +1,12 @@
+@import "../../style/_base.scss";
+
+.brand-name {
+  font-family: $font-stack;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: $primary-color;
+  span {
+    color: $secondary-color;
+  }
+}
