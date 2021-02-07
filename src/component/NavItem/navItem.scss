@@ -1,28 +1,18 @@
 @import "../../style/_base";
 
-nav {
+ul {
+  width: 100%;
   display: flex;
-  margin-left: 150px;
-  margin-left: 150px;
-
-  ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    float: none;
-    position: absolute;
-    top: 36px;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    li {
-      padding-left: 20px;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 30px;
-    }
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  list-style-type: none;
+  li {
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
   }
 }

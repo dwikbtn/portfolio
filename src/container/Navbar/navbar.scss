@@ -1,4 +1,16 @@
-// @import "../../style/base";
-// .container {
-//   display: flex;
-// }
+@import "../../style/base";
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 169px;
+  padding-right: 169px;
+  background: rgba(0, 255, 149, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    opacity: 0;
+  }
+}
