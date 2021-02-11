@@ -6,7 +6,7 @@ import "./navbar.scss";
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="nav-container">
         <Logo />
         <NavItem />
         <ContactButton />
