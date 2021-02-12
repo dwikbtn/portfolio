@@ -1,0 +1,48 @@
+@import "../../style/_base";
+h1.name {
+  font-weight: 500;
+  text-align: left;
+  font-size: 52px;
+  line-height: 65px;
+  span.nameBold {
+    font-weight: bolder;
+  }
+}
+
+h2.aboutDesc {
+  font-weight: 600;
+  color: $primary-color;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+p.subDesc {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #686971;
+}
+
+div.icon {
+  margin-top: 30px;
+  a {
+    margin-right: 15px;
+  }
+}
+
+button.more {
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: $primary-color;
+  padding: 10px 5px;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
