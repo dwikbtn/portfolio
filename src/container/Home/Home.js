@@ -1,6 +1,7 @@
 import React from "react";
 
 import HomeDesc from "../../component/HomeDescription/HomeDesc";
+import HeroImage from "../../component/HomeImage/HeroImage";
 
 import "./home.scss";
 const Home = () => {
@@ -9,7 +10,9 @@ const Home = () => {
       <div className="desciption">
         <HomeDesc />
       </div>
-      <div className="heroImage"></div>
+      <div className="heroImage">
+        <HeroImage />
+      </div>
     </div>
   );
 };

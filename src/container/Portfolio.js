@@ -8,9 +8,9 @@ export default class Portfolio extends Component {
     return (
       <>
         <Navbar />
-        <article>
+        <main>
           <Home />
-        </article>
+        </main>
       </>
     );
   }
