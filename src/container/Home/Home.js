@@ -7,10 +7,10 @@ import "./home.scss";
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="desciption">
+      <div className="description">
         <HomeDesc />
       </div>
-      <div className="heroImage">
+      <div className="heroImg">
         <HeroImage />
       </div>
     </div>

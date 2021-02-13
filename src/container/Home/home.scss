@@ -5,7 +5,15 @@
   margin-right: 150px;
   margin-top: 60px;
   display: flex;
-  .heroImage {
-    justify-self: end;
+  .description {
+    width: 100%;
+  }
+  .heroImg {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    img {
+      width: 100%;
+    }
   }
 }
