@@ -1,0 +1,47 @@
+@import "../../../style/base";
+.about-desc-container {
+  margin-left: 90px;
+  h2 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+  }
+  ul {
+    display: block;
+    text-align: left;
+    li {
+      color: black;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      padding-top: 10px;
+    }
+  }
+  .button-list {
+    margin-top: 30px;
+    %button-style {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 20px;
+      margin-right: 35px;
+    }
+    .blog {
+      @extend %button-style;
+      background-color: $primary-color;
+    }
+    .github {
+      @extend %button-style;
+      background-color: $secondary-color;
+    }
+  }
+}

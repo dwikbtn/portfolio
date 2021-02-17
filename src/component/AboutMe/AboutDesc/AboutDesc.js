@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutDesc.scss";
 
 const AboutDesc = () => {
   return (
@@ -11,6 +12,17 @@ const AboutDesc = () => {
         stack. I'm looking for an opportunity to become a part of a team where I
         can leverage my current skills and continue to grow as a web developer.{" "}
       </p>
+      <ul>
+        <li>Name: Dwi Darma Putra </li>
+        <li>DOB: 25-10-1998 </li>
+        <li>Nationality: Indonesia </li>
+        <li>Freelance: Available </li>
+        <li>email: dwidarma101(at)gmail.com </li>
+      </ul>
+      <div className="button-list">
+        <button className="blog">My Blog</button>
+        <button className="github">Github</button>
+      </div>
     </div>
   );
 };
