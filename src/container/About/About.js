@@ -7,13 +7,13 @@ import "./About.scss";
 export default class About extends Component {
   render() {
     return (
-      <div className="about-container">
+      <section className="about-container">
         <AboutHeader />
         <div className="content">
           <AboutImg />
           <AboutDesc />
         </div>
-      </div>
+      </section>
     );
   }
 }

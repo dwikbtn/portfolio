@@ -6,14 +6,14 @@ import HeroImage from "../../component/HomeImage/HeroImage";
 import "./home.scss";
 const Home = () => {
   return (
-    <div className="home-container">
+    <section className="home-container">
       <div className="description">
         <HomeDesc />
       </div>
       <div className="heroImg">
         <HeroImage />
       </div>
-    </div>
+    </section>
   );
 };
 

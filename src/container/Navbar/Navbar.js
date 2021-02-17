@@ -6,11 +6,11 @@ import "./navbar.scss";
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="nav-container">
+      <aside className="nav-container">
         <Logo />
         <NavItem />
         <ContactButton />
-      </div>
+      </aside>
     );
   }
 }

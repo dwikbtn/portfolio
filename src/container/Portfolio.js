@@ -3,6 +3,7 @@ import About from "./About/About";
 
 import Home from "./Home/Home";
 import Navbar from "./Navbar/Navbar";
+import Skill from "./Skill/Skill";
 
 export default class Portfolio extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class Portfolio extends Component {
         <main>
           <Home />
           <About />
+          <Skill />
         </main>
       </>
     );
